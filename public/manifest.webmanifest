@@ -1,0 +1,9 @@
+{
+  "name": "Sala de control",
+  "short_name": "Sala",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#F1F2EE",
+  "theme_color": "#181D21",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
