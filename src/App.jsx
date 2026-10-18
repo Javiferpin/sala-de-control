@@ -125,7 +125,7 @@ function Login() {
   const { store, notify, toast } = useData();
   const [busy, setBusy] = useState(false);
   return (
-    <div className="login">
+    <div className="login" style={{ "--page": "var(--c-inicio)" }}>
       <div className="login-blocks" aria-hidden="true">
         {["gym", "cine", "tfm", "trabajo", "personal"].map((id) => <span key={id} style={{ background: SECTIONS[id].color }} />)}
       </div>

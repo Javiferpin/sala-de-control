@@ -224,7 +224,7 @@ select.input { padding-right: 32px; }
   border: 1px solid var(--line); background: var(--surface); font-weight: 600; font-size: 15px;
 }
 .btn:hover { border-color: var(--ink-2); }
-.btn.primary { background: var(--page); border-color: var(--page); color: var(--paper); }
+.btn.primary { background: var(--page, var(--ink)); border-color: var(--page, var(--ink)); color: var(--paper); }
 .btn.primary:hover { filter: brightness(1.08); }
 .btn.big { min-height: 52px; padding: 12px 28px; font-size: 17px; }
 .btn:disabled { opacity: 0.5; cursor: default; filter: none; }
@@ -239,7 +239,7 @@ select.input { padding-right: 32px; }
 .seg { display: flex; flex-wrap: wrap; gap: 6px; }
 .seg-btn { border: 1px solid var(--line); background: transparent; border-radius: 999px; padding: 6px 13px; font-size: 14px; font-weight: 500; color: var(--ink-2); }
 .seg-btn:hover { color: var(--ink); border-color: var(--ink-2); }
-.seg-btn[aria-checked="true"] { background: var(--page); border-color: var(--page); color: var(--paper); font-weight: 600; }
+.seg-btn[aria-checked="true"] { background: var(--page, var(--ink)); border-color: var(--page, var(--ink)); color: var(--paper); font-weight: 600; }
 
 /* Series del gimnasio */
 .sets { display: grid; gap: 8px; padding: 14px; border-radius: 16px; background: var(--paper); border: 1px solid var(--line); }
